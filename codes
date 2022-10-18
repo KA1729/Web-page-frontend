@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness</title>
+    <style>
+        h3{
+            text-align: center;
+            font-size: 33px;
+        }
+        body {
+
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('training-828726_960_720.webp');
+
+
+        }
+
+        .left img {
+            width: 80px;
+
+        }
+        }
+
+        .left {
+
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right: 1000px;
+        }
+
+        .mid {
+           
+            display: block;
+            width: 50%;
+            margin: -62px 350px;
+         
+            position: fixed;
+              top: 80px 0px;
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 1150px;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: cursive;
+            padding: 0px 10px;
+            margin: 8px 8px;
+            color: white;
+            background-color: rgb(243, 44, 44);
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+
+        .container {
+            border: 2px solid white;
+            border-radius: 15px;
+            margin: 100px 050px;
+            padding: 39px 116p;
+            width: 33%;
+        }
+
+        #btn2 {
+            font-size: 15px;
+            margin: 0px 10px;
+            background-color: grey;
+            border-radius: 8px;
+            padding: 5px 26px;
+        }
+
+        #btn2:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+        .form-group input {
+            font-size: 18px;
+            font-family:cursive ;
+            text-align:justify;
+            display: block;
+            width: 75%;
+            padding: 0px;
+           
+            margin: 21px 6px;
+        }
+        #life{
+         
+            width: 300px;
+           text-align: center;
+           margin: 500px -80px;
+            font-size: 30px;
+            font-style: italic;
+            display:inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo-1861420__340.webp" alt=""><br>
+            Adi's fitness
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">email us</button>
+            <div id="life">live young live free.</div>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best gym of Ranchi:</h3>
+        <form action="non action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your bodyweight">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button id="btn2"> submit</button>
+        </form>
+      
+
+    </div>
+ 
+</body>
+
+</html>
